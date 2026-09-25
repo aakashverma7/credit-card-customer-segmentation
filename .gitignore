@@ -1,15 +1,18 @@
+# Python
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
 .venv/
-venv/
-.env
+.pytest_cache/
+.ruff_cache/
+
+# Data stays local; only the notes file is tracked
+data/*
+!data/README.md
+
+# Local run output and logs
 outputs/
-data/*.csv
-data/*.xlsx
-data/*.xls
-data/raw/
-data/interim/
 *.log
+
+# OS files
 Thumbs.db
 .DS_Store
