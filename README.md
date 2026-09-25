@@ -104,4 +104,4 @@ pytest -q
 
 ## Context
 
-Built for a PGDBA course project in 2022; rewritten in 2026.
+Built for the Business Analytics course (PGDBA) in 2022; rewritten in 2026.
